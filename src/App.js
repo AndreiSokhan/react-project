@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Headliner from './components/headliner/Headliner';
 
 function App() {
