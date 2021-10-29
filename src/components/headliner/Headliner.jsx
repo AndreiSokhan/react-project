@@ -5,12 +5,12 @@ import dislikeIcon from "./../../assets/img/dislike.svg";
 import clockIcon from "./../../assets/img/clock.svg"
 
 
-function Headliner() {
+function Headliner(props) {
    return (
       <article className="headliner">
-         <img className="thumbnail-img" src={thumbnail} alt="thumbnail-icon" />
+         <img className="thumbnail-img" src={props.thumbnail} alt="thumbnail-icon" />
          <div className="info">
-            <h1 className="title">Hate speech vs free speech</h1>
+            <h1 className="title">{props.title}</h1>
             <div className="rating">
                <div className="like">
                   <img src={likeIkon} alt="like-icon" />
