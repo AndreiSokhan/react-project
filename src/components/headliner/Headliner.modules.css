@@ -3,8 +3,12 @@
    align-items: center;
 }
 
-.thumbnail-img {
+.thumbnailImg {
    border-radius: 12px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   -ms-border-radius: 12px;
+   -o-border-radius: 12px;
 }
 
 .info {
@@ -43,12 +47,12 @@
    color: #878787;
 }
 
-.like-icon,
-.dislike-icon {
+.likeIcon,
+.disLikeIcon {
    margin-right: 4px;
 }
 
-.time-icon {
+.timeIcon {
    margin-right: 7px;
 }
 
