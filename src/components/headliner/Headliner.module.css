@@ -13,6 +13,7 @@
 
 .info {
    margin-left: 24px;
+   flex-grow: 1;
 }
 
 .rating {
