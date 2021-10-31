@@ -3,10 +3,9 @@ import s from './Headliner.module.css';
 
 import likeIkon from "./../../assets/img/like.svg";
 import dislikeIcon from "./../../assets/img/dislike.svg";
-import Time from '../time/Time';
-import Label from '../label/Label';
 import ArticleHeader from '../article-header/ArticleHeader';
-
+import Label from '../label/Label';
+import Time from '../time/Time';
 
 
 function Headliner(props) {
@@ -14,7 +13,7 @@ function Headliner(props) {
       <article className={s.headliner}>
          <img className={s.thumbnailImg} src={props.thumbnail} alt="thumbnail-icon" />
          <div className={s.info}>
-            <ArticleHeader style={s.title} title={props.title}/>
+            <ArticleHeader title={props.title}/>
             <div className={s.rating}>
                <div className={s.like}>
                   <img className={s.likeIcon} src={likeIkon} alt="like-icon" />
@@ -26,8 +25,8 @@ function Headliner(props) {
                </div>
             </div>
             <div className={s.news}>
-               <Label style={s.label} labeText={props.labeText}/>
-               <Time />
+               <Label labelText={props.labelText}/>
+               <Time time={props.time}/>
             </div>
          </div>
       </article>
