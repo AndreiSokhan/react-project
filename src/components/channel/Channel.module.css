@@ -1,4 +1,4 @@
-.Channel{
+.Channel {
    background-color: #F7F7F7;
    height: 158px;
    width: 152px;
@@ -7,4 +7,17 @@
    -moz-border-radius: 15px;
    -ms-border-radius: 15px;
    -o-border-radius: 15px;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: end;
+}
+
+.logolImg {
+
+}
+
+.title {
+
 }

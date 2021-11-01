@@ -1,0 +1,19 @@
+.NewsItem {
+}
+
+.thumbnailImg {
+   height: 176px;
+   width: 336px;
+   border-radius: 12px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   -ms-border-radius: 12px;
+   -o-border-radius: 12px;
+}
+
+.info {
+   display: flex;
+}
+.news {
+
+}
