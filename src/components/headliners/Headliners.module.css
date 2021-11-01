@@ -1,4 +1,4 @@
-.headliners {
+.Headliners {
    display: grid;
    grid-template-columns: repeat(3, 336px);
    gap: 32px;

@@ -1,11 +1,11 @@
 import s from './Headliners.module.css';
 import Headliner from './../headliner/Headliner';
-import img1 from './../../assets/img/image-1.jpg';
-import img2 from './../../assets/img/image-2.jpg';
-import img3 from './../../assets/img/image-3.jpg';
-import img4 from './../../assets/img/image-4.jpg';
-import img5 from './../../assets/img/image-5.jpg';
-import img6 from './../../assets/img/image-6.jpg';
+import img1 from './../../assets/img/headliler-img/image-1.jpg';
+import img2 from './../../assets/img/headliler-img/image-2.jpg';
+import img3 from './../../assets/img/headliler-img/image-3.jpg';
+import img4 from './../../assets/img/headliler-img/image-4.jpg';
+import img5 from './../../assets/img/headliler-img/image-5.jpg';
+import img6 from './../../assets/img/headliler-img/image-6.jpg';
 
 function Headliners() {
 return (
@@ -17,6 +17,6 @@ return (
       <Headliner like="10.8k" dislike="1.4k" labelText="CW6 NEWS" time="3:00 pm" thumbnail={img5} title="Mother of Stefanie Rengel" />
       <Headliner like="10.8k" dislike="1.4k" labelText="CNN NEWS" time="5:00 pm" thumbnail={img6} title="World Cup: Popular items" />
    </div>
-)
+   )
 }
 export default Headliners;

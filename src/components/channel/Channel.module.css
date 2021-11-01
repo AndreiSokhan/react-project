@@ -1,0 +1,10 @@
+.Channel{
+   background-color: #F7F7F7;
+   height: 158px;
+   width: 152px;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}

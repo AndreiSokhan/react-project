@@ -1,11 +1,9 @@
 import s from './Headliner.module.css';
-
-
-import likeIkon from "./../../assets/img/like.svg";
-import dislikeIcon from "./../../assets/img/dislike.svg";
-import ArticleHeader from '../article-header/ArticleHeader';
-import Label from '../label/Label';
-import Time from '../time/Time';
+import likeIkon from "./../../assets/img/headliler-img/like.svg";
+import dislikeIcon from "./../../assets/img/headliler-img/dislike.svg";
+import ArticleHeader from './../article-header/ArticleHeader';
+import Label from './../label/Label';
+import Time from './../time/Time';
 
 
 function Headliner(props) {

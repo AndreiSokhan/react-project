@@ -1,6 +1,6 @@
 import s from './Time.module.css';
 
-import clockIcon from "./../../assets/img/clock.svg";
+import clockIcon from "./../../assets/img/headliler-img/clock.svg";
 
 function Time(props) {
    return (
