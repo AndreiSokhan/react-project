@@ -5,7 +5,6 @@ import ArticleHeader from './../article-header/ArticleHeader';
 import Label from './../label/Label';
 import Time from './../time/Time';
 
-
 function Headliner(props) {
    return (
       <article className={s.headliner}>
