@@ -1,5 +1,5 @@
 import s from './News.module.css';
-import NewsItem from './../newsItem/NewsItem';
+import NewsItem from './newsItem/NewsItem';
 import img1 from './../../assets/img/news-img/image-1.jpg';
 import img2 from './../../assets/img/news-img/image-2.png';
 import img3 from './../../assets/img/news-img/image-3.png';

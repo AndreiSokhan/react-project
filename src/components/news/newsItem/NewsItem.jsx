@@ -1,5 +1,5 @@
 import s from './NewsItem.module.css';
-import ArticleHeader from '../article-header/ArticleHeader';
+import ArticleHeader from '../../article-header/ArticleHeader';
 import Label from '../label/Label';
 import Time from '../time/Time';
 

@@ -1,0 +1,10 @@
+.NavigationList {
+display: flex;
+align-items: center;
+margin-right: 18px;
+}
+
+.link {
+   padding-right: 8px;
+   padding-left: 12px;
+}

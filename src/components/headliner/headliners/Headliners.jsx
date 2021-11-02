@@ -1,11 +1,11 @@
 import s from './Headliners.module.css';
-import Headliner from './../headliner/Headliner';
-import img1 from './../../assets/img/headliler-img/image-1.jpg';
-import img2 from './../../assets/img/headliler-img/image-2.jpg';
-import img3 from './../../assets/img/headliler-img/image-3.jpg';
-import img4 from './../../assets/img/headliler-img/image-4.jpg';
-import img5 from './../../assets/img/headliler-img/image-5.jpg';
-import img6 from './../../assets/img/headliler-img/image-6.jpg';
+import Headliner from './../Headliner';
+import img1 from './../../../assets/img/headliler-img/image-1.jpg';
+import img2 from './../../../assets/img/headliler-img/image-2.jpg';
+import img3 from './../../../assets/img/headliler-img/image-3.jpg';
+import img4 from './../../../assets/img/headliler-img/image-4.jpg';
+import img5 from './../../../assets/img/headliler-img/image-5.jpg';
+import img6 from './../../../assets/img/headliler-img/image-6.jpg';
 
 function Headliners() {
 return (

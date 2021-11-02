@@ -1,8 +1,9 @@
 import './App.css';
 import Header from './components/header/Header';
-import Headliners from './components/headliners/Headliners';
-import Channels from './components/channels/Channels';
+import Headliners from './components/headliner/headliners/Headliners';
+import Channels from './components/channel/channels/Channels';
 import News from './components/news/News';
+import SearchBlock from './components/header/searchBlock/SearchBlock';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     <div className="App">
       <header className="header">
         <Header/>
+        <SearchBlock/>
+
       </header>
       <aside className="sidebar">aside</aside>
       <main className='main'>
