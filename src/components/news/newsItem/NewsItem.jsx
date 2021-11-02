@@ -1,7 +1,7 @@
 import s from './NewsItem.module.css';
 import ArticleHeader from '../../article-header/ArticleHeader';
-import Label from '../label/Label';
-import Time from '../time/Time';
+import Label from '../../label/Label';
+import Time from '../../time/Time';
 
 
 function NewsItem(props) {
