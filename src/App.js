@@ -3,29 +3,43 @@ import Header from './components/header/Header';
 import Headliners from './components/headliner/headliners/Headliners';
 import Channels from './components/channel/channels/Channels';
 import News from './components/news/News';
-import SearchBlock from './components/header/searchBlock/SearchBlock';
+import MainTitle from './components/mainTitle/MainTitle';
 
 
 function App() {
   return (
     <div className="App">
+
+          {/*Header*/}
       <header className="header">
         <Header/>
-        <SearchBlock/>
-
       </header>
-      <aside className="sidebar">aside</aside>
+
+          {/*Aside*/}
+      <aside className="sidebar">
+        <Sidebar/>
+        aside
+      </aside>
+
+
+          {/*Main*/}
       <main className='main'>
-        <section classname="block-channels">
-        <h2 className="block-title">Explore Channels</h2>
+
+          {/*Channels*/}
+        <MainTitle title="Explore Channels"/>
+          <section classname="block-channels">
           <Channels/>
         </section>
+
+        {/*Headliners*/}
+      <MainTitle title="Today’s Headlines"/>
         <section className="block-headliners">
-          <h2 className="block-title">Today’s Headlines</h2>
-          <Headliners/>
-        </section>
+        <Headliners/>
+      </section>
+
+          {/*News*/}
+      <MainTitle title="Featured News"/>
         <section classname="block-news">
-        <h2 className="block-title">Featured News</h2>
           <News/>
         </section>
       </main>
