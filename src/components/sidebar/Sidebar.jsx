@@ -1,20 +1,45 @@
 import s from './Sidebar.module.css';
-import SidebarTop from './sidebarTop/SidebarTop';
-
-
-//import Headliner from './../Headliner';
-//import img1 from './../../../assets/img/headliler-img/image-1.jpg';
+import SidebarMenu from './sidebarMenu/SidebarMenu';
+import logoImg from './../../assets/img/aside-img/image-logo.svg';
+import img1 from "./../../assets/img/aside-img/image-1.svg";
+import img2 from "./../../assets/img/aside-img/image-2.svg";
+import img3 from "./../../assets/img/aside-img/image-3.svg";
+import img4 from "./../../assets/img/aside-img/image-4.svg";
+import img5 from "./../../assets/img/aside-img/image-5.svg";
+import img6 from "./../../assets/img/aside-img/image-6.svg";
+import img7 from "./../../assets/img/aside-img/image-7.svg";
+import fireImg from "./../../assets/img/aside-img/fire.svg";
 
 
 function Sidebar() {
 return (
    <div className={s.Sidebar}>
-      <SidebarTop/>
+      <div className={s.SidebarTop}>
+         <a className={s.logo} href="#">
+            <img clasName={s.logoImg} src={logoImg} alt="logo-Img" />
+         </a>
+         <menu className={s.menu}>
+            <SidebarMenu menuIcon={img1} menuItem="Home"/>
+            <SidebarMenu menuIcon={img2} menuItem="Explore"/>
+            <SidebarMenu menuIcon={img3} menuItem="Saved"/>
+            <SidebarMenu menuIcon={img4} menuItem="Subscriptions"/>
+            <SidebarMenu menuIcon={img5} menuItem="Messages"/>
+            <SidebarMenu menuIcon={img6} menuItem="Settings"/>
+            <SidebarMenu menuIcon={img7} menuItem="Logout"/>
+         </menu>
+      </div>
+      <div className={s.SidebarBottom}>
+         <div className={s.background}>
+            <div className={s.fireBackground}>
+               <img className={s.fireImg} src={fireImg} alt="fire-img" />
+            </div>
+            <p className={s.text}>Subscribe to our new plan<span className={s.price}>$25</span></p>
+            <p className={s.offer}>It is a limited time offer that will expire soon.</p>
+            <a className={s.btn} href="#">Subscribe now</a>
+         </div>
+      </div>
    </div>
 
-
-
-   //   <Headliner like="10.8k" dislike="1.4k" labelText="BBC NEWS" time="2:00 pm" thumbnail={img1} title="Hate speech vs free speech" />
    )
 }
 export default Sidebar;

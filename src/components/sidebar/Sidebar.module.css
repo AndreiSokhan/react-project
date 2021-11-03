@@ -1,1 +1,24 @@
 .Sidebar {}
+
+.menu {
+   padding: 0 32px;
+}
+
+.logo {
+   display: block;
+   text-align: center;
+   margin: 33px 0;
+}
+
+
+.background {
+   height: 348px;
+   width: 240px;
+   margin: 0 32px;
+   background-color: #fff;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}

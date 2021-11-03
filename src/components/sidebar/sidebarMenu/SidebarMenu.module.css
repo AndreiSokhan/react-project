@@ -1,0 +1,14 @@
+.SidebarMenu {
+   height: 56px;
+   width: 272px;
+   display: flex;
+   align-items: center;
+}
+
+.SidebarMenu:hover {
+   background-color: #503E9D;
+}
+
+.menuIcon{
+   margin-right: 24px;
+}

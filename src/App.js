@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
+import Sidebar from './components/sidebar/Sidebar';
 import Headliners from './components/headliner/headliners/Headliners';
 import Channels from './components/channel/channels/Channels';
 import News from './components/news/News';
@@ -17,8 +18,9 @@ function App() {
 
           {/*Aside*/}
       <aside className="sidebar">
+
         <Sidebar/>
-        aside
+        
       </aside>
 
 
