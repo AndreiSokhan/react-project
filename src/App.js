@@ -12,9 +12,9 @@ function App() {
     <div className="App">
 
           {/*Header*/}
-      <header className="header">
+      {/*<header className="header">*/}
         <Header/>
-      </header>
+      {/*</header>*/}
 
           {/*Aside*/}
       <aside className="sidebar">
