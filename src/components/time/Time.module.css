@@ -5,6 +5,7 @@
    display: flex;
    align-items: center;
    color: #878787;  
+   padding-top: 5px;
 }
 
 .timeIcon {

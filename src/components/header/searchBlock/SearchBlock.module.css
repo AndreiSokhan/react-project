@@ -1,5 +1,4 @@
 .Form {
-   max-width: 385px;
    position: relative;
 }
 
@@ -11,7 +10,7 @@
    content: "";
    display: block;
    position: absolute;
-   top: 20%;
+   top: 13%;
    left: 5%;
    width: 20px;
    height: 20px;
@@ -22,8 +21,7 @@
 }
 
 .text {
-
-   width: 100%;
+   width: 385px;
    height: 48px;
    padding: 0 0 0 48px;
    background-color: #F7F7F7;
@@ -41,4 +39,14 @@
    height: 48px;
    width: 48px;*/
    margin: 0 16px;
+}
+
+.Photo {
+   height: 48px;
+   width: 48px;
+   border-radius: 50%;
+   -webkit-border-radius:;
+   -moz-border-radius:;
+   -ms-border-radius:;
+   -o-border-radius:;
 }

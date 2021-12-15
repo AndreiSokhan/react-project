@@ -3,12 +3,14 @@
    width: 272px;
    display: flex;
    align-items: center;
+   border-radius: 12px;
 }
 
 .SidebarMenu:hover {
    background-color: #503E9D;
+   opacity: 0.3;
 }
 
-.menuIcon{
-   margin-right: 24px;
+.menuIcon {
+   margin: 0 24px 0 16px;
 }
