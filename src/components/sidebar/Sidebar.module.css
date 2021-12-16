@@ -10,6 +10,9 @@
    margin: 33px 0;
 }
 
+.SidebarBottom {
+   padding-top: 24px;
+}
 
 .background {
    height: 348px;
@@ -21,4 +24,16 @@
    -moz-border-radius: 15px;
    -ms-border-radius: 15px;
    -o-border-radius: 15px;
+}
+
+.fireBackground {
+   height: 64px;
+   width: 64px;
+   border-radius: 12px;
+   background-color: rgba(251, 109, 58, 0.1);
+}
+
+.fireImg {
+   height: 32px;
+   width: 24px;
 }
