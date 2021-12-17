@@ -14,7 +14,7 @@
    padding-top: 24px;
 }
 
-.background {
+.inner {
    height: 348px;
    width: 240px;
    margin: 0 32px;
@@ -26,14 +26,42 @@
    -o-border-radius: 15px;
 }
 
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 .fireBackground {
    height: 64px;
    width: 64px;
    border-radius: 12px;
    background-color: rgba(251, 109, 58, 0.1);
+   margin-bottom: 24px;
 }
 
 .fireImg {
    height: 32px;
    width: 24px;
+}
+
+.text {
+   margin-bottom: 8px;
+}
+
+.offer {
+   text-align: center;
+   margin-bottom: 24px;
+}
+
+.btn {
+   height: 48px;
+   width: 176px;
+   border-radius: 10px;
+   background: #503E9D;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }

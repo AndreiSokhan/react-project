@@ -9,6 +9,8 @@ import img5 from "./../../assets/img/aside-img/image-5.svg";
 import img6 from "./../../assets/img/aside-img/image-6.svg";
 import img7 from "./../../assets/img/aside-img/image-7.svg";
 import fireImg from "./../../assets/img/aside-img/fire.svg";
+import crossImg from "./../../assets/img/aside-img/cross.svg";
+
 
 
 function Sidebar() {
@@ -29,13 +31,16 @@ return (
          </menu>
       </div>
       <div className={s.SidebarBottom}>
-         <div className={s.background}>
-            <div className={s.fireBackground}>
-               <img className={s.fireImg} src={fireImg} alt="fire-img" />
-            </div>
-            <p className={s.text}>Subscribe to our new plan<span className={s.price}>$25</span></p>
-            <p className={s.offer}>It is a limited time offer that will expire soon.</p>
-            <a className={s.btn} href="#">Subscribe now</a>
+         <div className={s.inner}>
+            <img className={s.crossImg} src={crossImg} alt="cross-img" />
+               <div className={s.wrapper}>
+                  <div className={s.fireBackground}>
+                     <img className={s.fireImg} src={fireImg} alt="fire-img" />
+                  </div>
+                  <p className={s.text}>Subscribe to our new plan<span className={s.price}>$25</span></p>
+                  <p className={s.offer}>It is a limited time offer that will expire soon.</p>
+                  <a className={s.btn} href="#">Subscribe now</a>
+               </div>
          </div>
       </div>
    </div>
