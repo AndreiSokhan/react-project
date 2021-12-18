@@ -1,6 +1,6 @@
 .SidebarMenu {
    height: 56px;
-   width: 272px;
+   max-width: 272px;
    display: flex;
    align-items: center;
    border-radius: 12px;
@@ -9,6 +9,7 @@
 .SidebarMenu:hover {
    background-color: #503E9D;
    opacity: 0.3;
+   cursor: po
 }
 
 .menuIcon {

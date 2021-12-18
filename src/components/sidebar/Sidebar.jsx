@@ -37,7 +37,7 @@ return (
                   <div className={s.fireBackground}>
                      <img className={s.fireImg} src={fireImg} alt="fire-img" />
                   </div>
-                  <p className={s.text}>Subscribe to our new plan<span className={s.price}>$25</span></p>
+                  <p className={s.text}>Subscribe to our new plan <span className={s.price}>$25</span></p>
                   <p className={s.offer}>It is a limited time offer that will expire soon.</p>
                   <a className={s.btn} href="#">Subscribe now</a>
                </div>
