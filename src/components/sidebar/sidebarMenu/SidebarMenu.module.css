@@ -8,10 +8,27 @@
 
 .SidebarMenu:hover {
    background-color: #503E9D;
+   cursor: pointer;
    opacity: 0.3;
-   cursor: po
 }
 
 .menuIcon {
    margin: 0 24px 0 16px;
+}
+
+.menuItem {
+   font-family: Open Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-align: left;
+   color: #878787;
+}
+
+.menuItem:hover {
+   font-weight: 700;
+   color: #503E9D;
+   opacity: 1;
 }

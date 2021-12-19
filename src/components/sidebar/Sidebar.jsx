@@ -14,25 +14,27 @@ import crossImg from "./../../assets/img/aside-img/cross.svg";
 
 
 function Sidebar() {
-return (
-   <div className={s.Sidebar}>
-      <div className={s.SidebarTop}>
-         <a className={s.logo} href="#">
-            <img clasName={s.logoImg} src={logoImg} alt="logo-Img" />
-         </a>
-         <menu className={s.menu}>
-            <SidebarMenu menuIcon={img1} menuItem="Home"/>
-            <SidebarMenu menuIcon={img2} menuItem="Explore"/>
-            <SidebarMenu menuIcon={img3} menuItem="Saved"/>
-            <SidebarMenu menuIcon={img4} menuItem="Subscriptions"/>
-            <SidebarMenu menuIcon={img5} menuItem="Messages"/>
-            <SidebarMenu menuIcon={img6} menuItem="Settings"/>
-            <SidebarMenu menuIcon={img7} menuItem="Logout"/>
-         </menu>
-      </div>
-      <div className={s.SidebarBottom}>
-         <div className={s.inner}>
-            <img className={s.crossImg} src={crossImg} alt="cross-img" />
+   return (
+      <div className={s.Sidebar}>
+         <div className={s.SidebarTop}>
+            <a className={s.logo} href="#">
+               <img clasName={s.logoImg} src={logoImg} alt="logo-Img" />
+            </a>
+            <menu className={s.menu}>
+               <SidebarMenu menuIcon={img1} menuItem="Home" />
+               <SidebarMenu menuIcon={img2} menuItem="Explore" />
+               <SidebarMenu menuIcon={img3} menuItem="Saved" />
+               <SidebarMenu menuIcon={img4} menuItem="Subscriptions" />
+               <SidebarMenu menuIcon={img5} menuItem="Messages" />
+               <SidebarMenu menuIcon={img6} menuItem="Settings" />
+               <SidebarMenu clasName={s.last} menuIcon={img7} menuItem="Logout" />
+            </menu>
+         </div>
+         <div className={s.SidebarBottom}>
+            <div className={s.inner}>
+               <a className={s.crossLogo} href="#">
+                  <img className={s.crossImg} src={crossImg} alt="cross-img" />
+               </a>
                <div className={s.wrapper}>
                   <div className={s.fireBackground}>
                      <img className={s.fireImg} src={fireImg} alt="fire-img" />
@@ -41,9 +43,10 @@ return (
                   <p className={s.offer}>It is a limited time offer that will expire soon.</p>
                   <a className={s.btn} href="#">Subscribe now</a>
                </div>
+            </div>
+
          </div>
       </div>
-   </div>
 
    )
 }
